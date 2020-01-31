@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+html, body, .container-fluid, .content-row {
+  height: 100%;
+}
+h1{
+  font-family: 'Michroma', sans-serif;
+  font-size: 42px;
+  Color: #ffffff;
+}
+h2{  
+  font-family: 'Michroma', sans-serif;
+  color: #333333;
+  text-shadow: 0px 0px 11px rgba(148, 150, 255, 1);
+}
+
+h3{
+  font-family: 'Michroma', sans-serif;
+}
+
+
+h5{
+  font-family: 'Michroma', sans-serif;
+  font-size: small;
+}
+p, input{
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+li{
+  font-family: 'Michroma', sans-serif;
+  font-size: 12px;
+  color: #333333;
+  background: url(../img/back3.png);
+}
+
+
+.hide {
+  display: none;
+}
+
+.city-btn:hover {
+  background-color: #f6f5f5;
+  cursor: pointer;
+}
+
+.card {
+  background-color:  #6190e8;
+  border: 1px solid #333333;
+  box-shadow: 0 1.3px 3.1px rgba(0, 0, 0, 0.2), 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.greenUltrav {
+  border-radius: 5px;
+  background: linear-gradient(to right, #56ab2f, #a8e063);
+  padding: 2px 8px;
+  text-align: center;
+}
+.yellowUltrav {
+  border-radius: 5px;
+background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 2px 8px;
+  text-align: center;
+}
+.orangeUltrav {
+  border-radius: 5px;
+  background: linear-gradient(to right, #fdc830, #f37335);
+  padding: 2px 8px;
+  text-align: center;
+ 
+}
+.redUltrav {
+  border-radius: 5px;
+  background: linear-gradient(to right, #e52d27, #b31217);
+  padding: 2px 8px;
+  text-align: center;
+}
+.purpleaUltrav {
+  border-radius: 10px;
+  background: linear-gradient(to right, #41295a, #2f0743);
+  padding: 2px 8px;
+  text-align: center;
+}
